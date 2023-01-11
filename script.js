@@ -1,5 +1,5 @@
 const divItem= document.querySelectorAll(".panel")
-//console.log('div',divItem)
+console.log('div',divItem)
 divItem.forEach ((i) => {
 console.log(i);
 i.addEventListener('mouseover', () => {
